@@ -1,0 +1,43 @@
+/*
+Theme Name: BOM Starter Theme
+
+WooCommerce styles override
+*/
+
+// WooCommerce color variables
+$woocommerce__color-error: #e2401c;
+$woocommerce__color-success: #0f834d;
+$woocommerce__color-info: #3d9cd2;
+
+// Import variables and mixins
+@import "1-utilities/1-utilities-index";
+
+/**
+ * Shop tables
+ */
+@import "5-plugins/woocommerce/tables";
+
+/**
+ * Products
+ */
+@import "5-plugins/woocommerce/products";
+
+/**
+ * Single product
+ */
+@import "5-plugins/woocommerce/single-product";
+
+/**
+ * Checkout
+ */
+@import "5-plugins/woocommerce/checkout";
+
+/**
+ * General WooCommerce components
+ */
+@import "5-plugins/woocommerce/components";
+
+/**
+ * WooCommerce widgets
+ */
+@import "5-plugins/woocommerce/widgets";

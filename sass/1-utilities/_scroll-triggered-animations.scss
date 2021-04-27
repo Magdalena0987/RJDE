@@ -1,0 +1,66 @@
+
+// speed of transitions
+
+$transition-for-fade: opacity 0.8s;
+
+$transition-for-fade-with-motion: opacity 0.5s, transform 0.7s;
+
+// classes
+
+.js-animate-fade {
+	opacity: 0;
+	transition: $transition-for-fade;
+}
+
+.js-animate-fade-init {
+	opacity: 1;
+}
+
+.js-animate-up {
+	opacity: 0;
+	transform: translate(0, 30px);
+	transition: $transition-for-fade-with-motion;
+}
+
+.js-animate-up-init {
+	transform: translate(0, 0);
+	opacity: 1;
+}
+
+.js-animate-right {
+	opacity: 0;
+	transform: translate(30px, 0);
+	transition: $transition-for-fade-with-motion;
+}
+
+.js-animate-right-init {
+	transform: translate(0, 0);
+	opacity: 1;
+}
+
+.js-animate-left {
+	opacity: 0;
+	transform: translate(-30px, 0);
+	transition: $transition-for-fade-with-motion;
+}
+
+.js-animate-left-init {
+	transform: translate(0, 0);
+	opacity: 1;
+}
+
+.js-animate-delay-03 {
+	transition-delay: 0.3s;
+}
+
+.js-animate-delay-05 {
+	transition-delay: 0.5s;
+}
+
+.js-animate-delay-08 {
+	transition-delay: 0.8s;
+}
+
+.js-animate-delay-1 {
+	transition-delay: 1s;
+}
