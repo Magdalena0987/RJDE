@@ -112,7 +112,6 @@ get_header();
   </div> 
 
     <div class="partners-wrapper">
-	    <img src="http://rjde.bigorangeclients.co.uk/wp-content/uploads/2021/04/rjde-background.png" alt="training icon" class="lettings-2">
 		<div class="partners one">
 			<img src="http://rjde.bigorangeclients.co.uk/wp-content/uploads/2021/04/rijksoverheid.svg" alt="rijksoverheid logo" class="rijksoverheid">
 			<img src="http://rjde.bigorangeclients.co.uk/wp-content/uploads/2021/04/Gecon-1.svg" alt="gecon logo" class="gecon">
