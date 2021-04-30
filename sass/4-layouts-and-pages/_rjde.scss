@@ -210,13 +210,64 @@ footer {
 }
 
 @media only screen and (max-width: 1025px) {
-  .four-col {
-    display: block;
+    .four-col {
+      display: block;
 
-    div {
-      margin-top: 20px;
-      margin-right: 0px;
-      margin-left: 0px;
+        div {
+          margin-top: 20px;
+          margin-right: 0px;
+          margin-left: 0px;
+        }
+      }
+
+    .title-center {
+      width: 90%;
+    }
+
+    .partners-wrapper {
+      padding: 20px 0 20px 0;
+
+    .partners {
+        grid-template-columns: auto;
+        justify-content: center;
+        margin-bottom: 10px;
+  
+      .rijksoverheid {
+          width: 200px;
+          margin-bottom: 20px;
+      }
+      .gecon {
+          width: 200px;
+          margin-bottom: 20px;
+      }
+      .nestle {
+          width: 200px;
+          margin-bottom: 20px;
+      }
+      .Innotractor {
+          width: 200px;
+          margin-bottom: 20px;
+      }
+      .sec_airdesign {
+          width: 200px;
+          margin-bottom: 20px;
+      }
+      .Prospectations {
+          width: 200px;
+          margin-bottom: 20px;
+      }
+      .bom {
+          width: 200px;
+          margin-bottom: 20px;
+      }
+      .violanta {
+          width: 200px;
+          margin-bottom: 20px;
+      }
+      .Logo-R-Gin {
+          width: 200px;
+          margin-bottom: 20px;
+      }
     }
   }
 }
